@@ -1,0 +1,14 @@
+[package]
+name = "oml"
+version = "0.1.0"
+description = "Online machine learning framework"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+rand = "0.8.5"
+actix-web = "4.4"
+actix-rt = "2.9"
+tokio = { version = "1.34", features = ["full"] }
+num-traits = "0.2"
+serde = "1.0"
